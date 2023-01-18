@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 import joblib
 app = Flask(__name__)
-filename = 'file_iris.pkl'
+filename = 'logres.pkl'
 #model = pickle.load(open(filename, 'rb'))
 model = joblib.load(filename)
 #model = joblib.load(filename)
