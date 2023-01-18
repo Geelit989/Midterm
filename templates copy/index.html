@@ -3,14 +3,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Iris Classification</title>
+    <title>Student Performance</title>
 </head>
 <body>
     <form action="{{ url_for('predict')}}" method="POST">
-        Sepal-Length:  <input type="number" name="sepal_length"></br>
-        Sepal_Width:   <input type="number" name="sepal_width"></br>
-	Petal_Length:  <input type="number" name="petal_length"></br>
-	Petal_Width:   <input type="number" name="petal_width"></br>
+        Gender:  <input type="number" name="gender"></br>
+        parental_level_of_education:   <input type="number" name="parental_level_of_education"></br>
+	lunch:  <input type="number" name="lunch"></br>
+	test_preparation_course:   <input type="number" name="test_preparation_course"></br>
+	math_score:   <input type="number" name="math_score"></br>
+	reading_score:  <input type="number" name="reading_score"></br>
+	writing_score:   <input type="number" name="writing_score"></br>
       
         <input type=submit value=Submit>
    </form>
